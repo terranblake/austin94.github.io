@@ -19,7 +19,7 @@ gradingCalculator.controller('GradingCtrl', function ($scope) {
             'highlight': false}
     ];
 
-    $scope.currentGrade = 72;
+    $scope.currentGrade = 0;
     $scope.totalGrade = 100;
 
     $scope.roundNumber = function(number) {
