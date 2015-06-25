@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ConnectIQ Location Finder</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+  <!-- FontIcons-->
+  <link rel="stylesheet" href="css/style.css">
+
+
+  <link rel="stylesheet" href="css/gh-fork-ribbon.css">
+</head>
+<body style="background-image: url('images/crossword.png'); font-family: 'Raleway', sans-serif;">
+  <div class="container" role="main" style="margin-top:25px; margin-bottom:25px;">
+    <div class="row" id="Header">
+      <h2 style="margin-bottom:0;">CONNECT IQ LOCATION FINDER</h2>
+      <hr style="margin-top:0;" />
+      <div class="col-sm-3 text-center">
+        <img src="images/coverImage.png" class="img-rounded" style="width:200px;"/>
+        <img src="images/powered-by-google-on-white2.png" style="margin-top: 15px;"/>
+        <img src="images/badge.png" style="margin-top: 15px;"/>
+      </div>
+      <div class="col-sm-9">
+        <p>Location Finder is an application for the Connect IQ app marketplace.  It uses your current GPS location
+          and your phones internet connection to find locations of interest near you, all on your wrist!</p>
+          <p>All locations and directions are provided by the Google Places API and the Google Maps API.</p>
+
+          <a class="btn" style="color:white; background-color:#4285f4; float:right;" href="https://apps.garmin.com/en-US/apps/1be15949-901f-4040-b7c9-125f4ebc3cb5" target="_blank">
+            Download at Connect IQ
+          </a>
+        </div>
+      </div>
+
+      <div class="row" id="Features">
+        <div class="col-sm-6">
+          <h2 style="margin-bottom:0;">CURRENT FEATURES</h2>
+          <hr style="margin-top:0;"/>
+          <ul>
+            <li>Search by location type</li>
+            <li>Vibrate when data is received</li>
+            <li>Tap to cycle between locations near you</li>
+          </ul>
+        </div>
+        <div class="col-sm-6">
+          <h2 style="margin-bottom:0;">UPCOMING FEATURES</h2>
+          <hr style="margin-top:0;"/>
+          <ul>
+            <li>"Turn-by-turn" Directions</li>
+            <li>Free text search</li>
+            <li>Directional arrow Directions</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row" id="Map">
+        <h2 style="margin-bottom:0;">Recent Requests</h2>
+        <hr style="margin-top:0; margin-bottom: 5px;"/>
+        <div class="col-sm-4">
+          <p>This map shows recent location searches in real time.</p>
+
+          <p>The location of these requests have been <strong>anonymized</strong>
+            to 500 meters.</p>
+          </div>
+          <div class="col-sm-8">
+            <iframe src="http://test-locationfinder.rhcloud.com/map.html"
+            style="width:100%; height:500px; border:0;"></iframe>
+          </div>
+        </div>
+
+        <div class="row" id="Privacy">
+          <h2 style="margin-bottom:0;">Privacy</h2>
+          <hr style="margin-top:0; margin-bottom: 5px;"/>
+          <div class="col-sm-12">
+            <p>The Location Finder Connect IQ Application is created and maintained by Austin Green(
+              <a href="mailto://austingreenkansas@gmail.com">austingreenkansas@gmail.com</a>).  The given
+              application collects anonymized GPS data as provided by the Garmin wearables and provided
+              to the Location Finder webservice.  This anonymization reduces the accuracy of the GPS location
+              to 500 meters.  I do <strong>NOT</strong> collect any personal data such as name or email.
+            </p>
+            <p>
+              If you have any questions about privacy or the information this application collects, please email
+              me at <a href="mailto://austingreenkansas@gmail.com">austingreenkansas@gmail.com</a>.
+            </p>
+          </div>
+        </div>
+
+        <div class="row" id="Promo">
+          <div class="col-sm-3 text-center">
+            <img src="images/profile.png" class="img-circle" style="width:75%;"/>
+          </div>
+          <div class="col-sm-9">
+            <h1 style="font-size:45px;">Austin Green</h1>
+            <p>I am currently pursuing my Bachelors of Engineering in Software Engineering with a
+              minor in Business Management as a Senior at Kansas State University. I enjoy web development
+              and writing code that fixes real-world problems.</p>
+              <a href="mailto:austingreenkansas@gmail.com"><span class="text-muted">austingreenkansas@gmail.com</span></a> |
+              <a href="https://github.com/austin94"><span class="text-muted">https://github.com/austin94</span></a>
+              <div style="margin-top:15px;"></div>
+              <a href="https://docs.google.com/document/d/1RcsPKvl1aqt0D9PemD3djomCS1a_CcG8qDh3pkD3cDs/edit?usp=sharing" target="_blank">
+                <button class="btn" style="color:white; background-color:#4285f4; margin-right:35px; margin-top:20px;">
+                  <span aria-hidden="true" class="social_googledrive"></span> GOOGLE DOC RESUME
+                </button>
+              </a>
+            </div>
+          </div>
+
+
+
+
+        </div>
+
+
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+
+        <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-48750741-2', 'auto');
+        ga('send', 'pageview');
+
+        </script>
+      </body>
+      </html>
