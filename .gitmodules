@@ -1,0 +1,3 @@
+[submodule "burgers-by-biggs"]
+	path = burgers-by-biggs
+	url = https://github.com/austin94/burgers-by-biggs
